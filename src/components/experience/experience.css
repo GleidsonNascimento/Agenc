@@ -1,0 +1,63 @@
+#container-cards{
+    width: 100%;
+    margin: auto;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+#container-cards h2{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.text-p{
+ width: 52%;
+ margin: auto;
+ text-align: center;
+ padding-bottom: 65px;
+}
+.secao-dark{
+    background-color: rgb(80, 77, 77);
+}
+.secao-dark h2{
+    color: white;
+}
+.secao-dark p{
+    color: white;
+}
+
+
+.cards{
+    display: flex;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    gap: 6rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.7rem;
+    justify-content:space-between;
+}
+#container-cards h2{
+    text-decoration: underline rgb(202, 168, 18) ;
+    margin-bottom: 1.9rem;
+}
+
+.cards p{
+    color:white
+}
+@media (max-width:1190px) {
+    .text-p{
+        width: 85%;
+    }
+    .cards{
+        gap: 2rem;
+    }
+        
+}
+
+@media (max-width:750px){
+    .cards{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        gap: 3rem;
+    }
+}

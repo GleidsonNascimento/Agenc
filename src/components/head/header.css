@@ -1,0 +1,46 @@
+#top{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 6px;
+}
+.logo img{
+    width: 34px;
+    text-align: center;
+    border: none;
+}
+#button{
+    width: 34px;
+    height: 34px;
+    border: solid 2px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+#button button {
+    border: none;
+    cursor: pointer;
+}
+#button img{
+    width: 22px;
+    background-color: white;
+}
+
+.top-dark-mode{
+    background-color:black ;
+}
+.btn-dark-mode{
+    border:solid rgb(238, 234, 234) ;
+}
+
+.button-black{
+    border:solid white ;
+    background-color: rgb(241, 240, 240);
+}

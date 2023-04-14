@@ -1,0 +1,27 @@
+
+#card{
+    width: 200px;
+    cursor: pointer;
+}
+
+#card p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(168, 165, 165);
+}
+#card h4{
+    color: rgb(0, 0, 12);
+    font-size: 18px;
+    margin-bottom: 0.7rem;
+}
+.top-card{
+    margin-bottom: 2px;
+}
+.secao-dark p{
+    color: white;
+}
+@media (max-width:750px){
+    #card{
+        width: 250px;
+    }
+}

@@ -1,0 +1,59 @@
+#container-banner {
+  height: 95vh;
+  display: flex;
+  position: relative;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: white;
+}
+.banner-text p {
+  font-size: 10px;
+  color: rgb(15, 15, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.banner-text h2 {
+  color: rgb(15, 15, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-left: 70px;
+  padding-bottom: 1px;
+}
+.banner-text span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 26px;
+  color: rgb(15, 15, 82);
+}
+
+#imagem-container {
+  width: 50%;
+  background-image: url("/public/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.container-dark-mode {
+  background-color: black;
+}
+
+@media (max-width: 750px) {
+  #imagem-container {
+    display: none;
+  }
+  .banner-text {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-text h2,
+  .banner-text p {
+    padding: 0;
+  }
+}

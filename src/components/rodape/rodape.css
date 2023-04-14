@@ -1,0 +1,38 @@
+#container-rodape{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.rodape-dark-mode p{
+    color: white;
+}
+
+.rodape-dark-mode{
+    background-color: black;
+}
+.container-text{
+    font-size: 1.4rem;
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+.container-redes img{
+    width: 4.3rem;
+    padding-left: 2.5rem;
+    padding-top: .7rem;
+    padding-bottom: .6rem;
+}
+.container-redes{
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    
+}
+
+@media (max-width:750px) {
+    .container-text{
+        width: 95%;
+    }
+}
